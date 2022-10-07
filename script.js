@@ -25,7 +25,7 @@ function displayPhotos(){
         // Create <img> for photo
         const img = document.createElement('img');;
         setAttribute(img, {
-            src:photos.urls.raw,
+            src:photos.urls.regular,
             alt : photos.alt_description,
             title : photos.alt_description,
         });
